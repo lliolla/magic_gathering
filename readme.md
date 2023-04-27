@@ -1,0 +1,2 @@
+Alegreya Sans
+DIN Next
