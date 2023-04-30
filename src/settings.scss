@@ -1,1 +1,61 @@
-@import "./settings.scss";
+@font-face {
+  font-family: "font-title";
+  src: url(../src/assets/fonts/Metamorphous-Regular.ttf);
+}
+@font-face {
+  font-family: "font-body";
+  src: url(../src/assets/fonts/Lato-Regular.ttf);
+}
+
+$font-title: "font-title", sans-serif;
+$font-body: "font-body", serif;
+
+$color-1: #ffffff;
+$color-2: #dddddd;
+$color-3: #6b788b;
+$color-4: #808080;
+$red: #ff6046;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+body {
+  font-family: $font-body;
+
+  background-image: url("../public/assets/background/greyfade.jpg");
+}
+h1 {
+  font-family: $font-title;
+  font-size: 60px;
+  color: $color-1;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 112%;
+  opacity: .8;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+text-transform: uppercase;
+}
+p {
+    color: $color-2;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
+  margin-bottom: 0px;
+}
