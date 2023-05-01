@@ -1,0 +1,24 @@
+.gird-container{
+    display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-gap: 10px;
+      background-color: #ccc;
+      padding: 10px;
+      &_card{
+        background-color: #666;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+      }
+}
+.card_container{
+   display:flex;
+   align-items: center;
+   width: 80%;
+   
+.card_details{
+    position: relative;
+    left: -14px;
+    top: -0px;
+  }
+}
