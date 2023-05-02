@@ -5,12 +5,12 @@ const Nav = () => {
     <img className="nav_box_logo" src="../../../public/assets/logo/dota2_logo_symbol.png" alt="" />
    
        <div className="nav_box_items">
-        <div className="nav_box_items-link">Jeux </div>
-        <div className="nav_box_items-link">Personnages</div>
+        <div className="nav_box_items-link">Cartes </div>
+        <div className="nav_box_items-link">Marché</div>
        </div>
         <div className="nav_box_options" >
-            <div className="nav_box_options-link">Connexion </div>
-            <div className="nav_box_options-link">langues</div>
+            <div className="nav_box_options-link">Compte</div>
+            <div className="nav_box_options-link">magasins</div>
         </div> 
       </div>
     </div>

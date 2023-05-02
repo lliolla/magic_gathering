@@ -1,24 +1,24 @@
-.gird-container{
-    display: grid;
-      grid-template-columns: auto auto auto auto;
-      grid-gap: 10px;
-      background-color: #ccc;
-      padding: 10px;
-      &_card{
-        background-color: #666;
-      text-align: center;
-      padding: 20px 0;
-      font-size: 30px;
-      }
+.container{
+display: flex;
+justify-content: center;
+    align-items: center;
+  .gird_container{
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 50px;
+    .card_container{
+
+      .card_details{
+        transition: all 0.5s ease;
+          img{
+              border-radius: 10px;
+          }
+          &:hover{
+            transform:scale(1.25);
+          }
+    }
+    }
 }
-.card_container{
-   display:flex;
-   align-items: center;
-   width: 80%;
    
-.card_details{
-    position: relative;
-    left: -14px;
-    top: -0px;
   }
-}
+

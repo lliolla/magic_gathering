@@ -11,15 +11,15 @@ useEffect(() => {
 }, [])
 
     return (
-        <div className="gird_container">
-      
+        <div className="container">
+      <div className="gird_container">
             {
                cardsData.map((card)=>
                
                 <Card key={card.id}  card={card} />
                ) 
             }
-    
+    </div>
 
            
          </div>     

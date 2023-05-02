@@ -2,6 +2,7 @@
   width: 750px;
   max-width: 1200px;
   padding: 10px;
+  margin: 40px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -17,19 +18,59 @@
     letter-spacing: 2px;
     color: $color-1;
   }
-  &-att &-comp{
+  &-color {
     display: flex;
+    justify-content: center;
     margin: 4px 0px;
-    align-items: center;
+  
     span {
       display: block;
       margin: 20px 0px;
       color: $color-4;
       font-size: 16px;
     }
-    img{
-        width: 44px;
-        height: 34px;
+    input{
+        border: 0px none;
+        color: #ffffff;
+        height: 22px;
+        font-weight: bold;
+        font-size: 11pt;
+        background-color: #4a4a4a;
+        top: 2px;
+        position: relative;
     }
+    img{
+       margin: 7px;
+        width: 27px;
+        height: 28px;
+        &:hover {
+            width: 27px;
+            height: 28px;
+            transform:scale(1.25);
+        }
+        
+    }
+  }
+  &-search{
+    display: flex;
+    justify-content: center;
+    span {
+        display: block;
+        margin: 20px 0px;
+        color: $color-4;
+        font-size: 16px;
+      }
+      &-form{
+      display: flex;
+      align-items: center;
+      background-color:$color-4 ;
+      padding: 10px;
+      img{
+        padding:0 5px;
+      }
+      form{
+        width: 100%;
+      }
+      }
   }
 }
